@@ -1,0 +1,31 @@
+# 具身智能工业级全栈工程落地手册
+
+数据 → 模型 → 仿真 → 硬件 → 部署 → 产品化：六层全栈教程合集（53 篇）。
+
+- 站点：`https://<你的用户名>.github.io/embodied-ai-fullstack-handbook/`
+- 技术栈：MkDocs Material + GitHub Actions 自动构建部署
+- 内容源：`docs/`（按六层归档）
+
+## 本地预览
+
+```bash
+pip install -r requirements.txt
+mkdocs serve
+```
+
+## 部署说明
+
+1. 推送 `main` 分支后，GitHub Actions 会自动构建并发布；
+2. 首次请在仓库 **Settings → Pages** 中把 Source 设为 **GitHub Actions**；
+3. 站点地址即 `https://<用户名>.github.io/embodied-ai-fullstack-handbook/`。
+
+## 目录
+
+| 层 | 章节 | 目录 |
+| --- | --- | --- |
+| 数据层 | 第 1–12 章 | `docs/data-layer` |
+| 模型层 | 第 13–24 章 | `docs/model-layer` |
+| 仿真层 | 第 25–31 章 | `docs/simulation-layer` |
+| 硬件层 | 第 32–37 章 | `docs/hardware-layer` |
+| 部署层 | 第 38–44 章 | `docs/deployment-layer` |
+| 产品产业层 | 第 45–52 章 | `docs/product-layer` |

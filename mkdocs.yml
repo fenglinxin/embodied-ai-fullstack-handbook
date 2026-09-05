@@ -1,0 +1,95 @@
+site_name: 具身智能工业级全栈工程落地手册
+site_description: 具身智能全栈工程落地系列教程（数据/模型/仿真/硬件/部署/产品化）
+docs_dir: docs
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.details
+extra:
+  generator: false
+nav:
+  - 首页: index.md
+  - "开篇 · 一张图看懂全栈工程与学习路径": "开篇-一张图看懂具身智能全栈工程与学习路径.md"
+  - 数据层:
+      - "第 1 章 · 具身数据全链路地基": "data-layer/第1章-具身数据全链路地基.md"
+      - "第 2 章 · 真实场景数据采集工位搭建": "data-layer/第2章-真实场景数据采集工位搭建.md"
+      - "第 3 章 · 多模态数据融合与时间对齐": "data-layer/第3章-多模态数据融合与时间对齐.md"
+      - "第 4 章 · 数据清洗与脏数据过滤": "data-layer/第4章-数据清洗与脏数据过滤.md"
+      - "第 5 章 · 动作序列去重与数据均衡": "data-layer/第5章-动作序列去重与数据均衡.md"
+      - "第 6 章 · 数据脱敏与安全合规": "data-layer/第6章-数据脱敏与安全合规.md"
+      - "第 7 章 · 领域专属数据集构建方法论": "data-layer/第7章-领域专属数据集构建方法论.md"
+      - "第 8 章 · 开源具身数据集选型与二次加工": "data-layer/第8章-开源具身数据集选型与二次加工.md"
+      - "第 9 章 · 数据质量打分体系落地": "data-layer/第9章-数据质量打分体系落地.md"
+      - "第 10 章 · 小数据场景的数据增强策略": "data-layer/第10章-小数据场景的数据增强策略.md"
+      - "第 11 章 · 数据管道自动化搭建": "data-layer/第11章-数据管道自动化搭建.md"
+      - "第 12 章 · 训练数据适配与迭代优化": "data-layer/第12章-训练数据适配与迭代优化.md"
+  - 模型层:
+      - "第 13 章 · 机器人感知模块上 检测与分割": "model-layer/第13章-机器人感知模块上-检测与分割.md"
+      - "第 14 章 · 机器人感知模块下 深度估计与6D位姿": "model-layer/第14章-机器人感知模块下-深度估计与6D位姿.md"
+      - "第 15 章 · 机器人状态感知与多模态融合": "model-layer/第15章-机器人状态感知与多模态融合.md"
+      - "第 16 章 · 预测模块 动态物体与交互预测": "model-layer/第16章-预测模块-动态物体与交互预测.md"
+      - "第 17 章 · 规划模块上 全局与局部路径规划": "model-layer/第17章-规划模块上-全局与局部路径规划.md"
+      - "第 18 章 · 规划模块下 操作与任务级规划": "model-layer/第18章-规划模块下-操作与任务级规划.md"
+      - "第 19 章 · 控制模块上 轨迹跟踪与阻抗控制": "model-layer/第19章-控制模块上-轨迹跟踪与阻抗控制.md"
+      - "第 20 章 · 控制模块中 灵巧手与全身运动控制": "model-layer/第20章-控制模块中-灵巧手与全身运动控制.md"
+      - "第 21 章 · 控制模块下 闭环调优与扰动自适应": "model-layer/第21章-控制模块下-闭环调优与扰动自适应.md"
+      - "第 22 章 · VLA模型原理与工程拆解": "model-layer/第22章-VLA模型原理与工程拆解.md"
+      - "第 23 章 · 具身基础模型与世界模型": "model-layer/第23章-具身基础模型与世界模型.md"
+      - "第 24 章 · 模型微调蒸馏与轻量化": "model-layer/第24章-模型微调蒸馏与轻量化.md"
+  - 仿真层:
+      - "第 25 章 · 仿真环境选型对比": "simulation-layer/第25章-仿真环境选型对比.md"
+      - "第 26 章 · 仿真场景搭建与数字孪生复刻": "simulation-layer/第26章-仿真场景搭建与数字孪生复刻.md"
+      - "第 27 章 · 仿真传感器配置与虚拟数据生成": "simulation-layer/第27章-仿真传感器配置与虚拟数据生成.md"
+      - "第 28 章 · Sim2Real核心方案与虚实差异消除": "simulation-layer/第28章-Sim2Real核心方案与虚实差异消除.md"
+      - "第 29 章 · 仿真训练参数调优与加速策略": "simulation-layer/第29章-仿真训练参数调优与加速策略.md"
+      - "第 30 章 · 仿真评测体系与迭代落地流程": "simulation-layer/第30章-仿真评测体系与迭代落地流程.md"
+      - "第 31 章 · 零样本仿真迁移真机实战技巧": "simulation-layer/第31章-零样本仿真迁移真机实战技巧.md"
+  - 硬件层:
+      - "第 32 章 · 硬件平台选型与整机架构": "hardware-layer/第32章-硬件平台选型与整机架构.md"
+      - "第 33 章 · 移动底盘与导航硬件工程": "hardware-layer/第33章-移动底盘与导航硬件工程.md"
+      - "第 34 章 · 机械臂灵巧手与驱动器调试": "hardware-layer/第34章-机械臂灵巧手与驱动器调试.md"
+      - "第 35 章 · 传感器选型驱动与时间同步": "hardware-layer/第35章-传感器选型驱动与时间同步.md"
+      - "第 36 章 · 标定线缆与可靠性工程": "hardware-layer/第36章-标定线缆与可靠性工程.md"
+      - "第 37 章 · 上下位机架构与实时性设计": "hardware-layer/第37章-上下位机架构与实时性设计.md"
+  - 部署层:
+      - "第 38 章 · 端侧部署与推理加速": "deployment-layer/第38章-端侧部署与推理加速.md"
+      - "第 39 章 · 模型量化与压缩实战": "deployment-layer/第39章-模型量化与压缩实战.md"
+      - "第 40 章 · 低延时全链路调优": "deployment-layer/第40章-低延时全链路调优.md"
+      - "第 41 章 · 感知规划控制全闭环系统联调": "deployment-layer/第41章-感知规划控制全闭环系统联调.md"
+      - "第 42 章 · 真机故障排查卡顿漂移失效修复": "deployment-layer/第42章-真机故障排查卡顿漂移失效修复.md"
+      - "第 43 章 · 稳定性工程监控回滚与验收": "deployment-layer/第43章-稳定性工程监控回滚与验收.md"
+      - "第 44 章 · 机器人任务落地调试完整流程": "deployment-layer/第44章-机器人任务落地调试完整流程.md"
+  - 产品产业层:
+      - "第 45 章 · 产品定义与场景机会判断": "product-layer/第45章-产品定义与场景机会判断.md"
+      - "第 46 章 · 工业场景落地逻辑": "product-layer/第46章-工业场景落地逻辑.md"
+      - "第 47 章 · 商用与家用场景落地逻辑": "product-layer/第47章-商用与家用场景落地逻辑.md"
+      - "第 48 章 · 特种场景与行业解决方案": "product-layer/第48章-特种场景与行业解决方案.md"
+      - "第 49 章 · 产品差异化设计与量产难点": "product-layer/第49章-产品差异化设计与量产难点.md"
+      - "第 50 章 · 头部厂商产品迭代复盘": "product-layer/第50章-头部厂商产品迭代复盘.md"
+      - "第 51 章 · 赛道投融资逻辑政策与标准": "product-layer/第51章-赛道投融资逻辑政策与标准.md"
+      - "第 52 章 · 产业趋势预判与职业赛道": "product-layer/第52章-产业趋势预判与职业赛道.md"
