@@ -1,39 +1,122 @@
-# 具身智能工业级全栈工程落地手册
+# 具身智能工业级落地手册
 
-数据 → 模型 → 仿真 → 硬件 → 部署 → 产品化：六层全栈教程合集（53 篇）。
+> 一套"看完就能上项目"的开源工程库：**53 篇连载教程（1 开篇 + 52 章）+ 45 个零依赖可运行代码包（135 个脚本）**，覆盖 数据 → 模型 → 仿真 → 硬件 → 部署 → 产品化 六层。
+> 这不是学术笔记合集，而是按真实项目流程组织的工程交付手册：**给结论、给参数、给代码、给避坑、给验收口径**。
 
-- 站点：`https://<你的用户名>.github.io/embodied-ai-fullstack-handbook/`
-- 技术栈：MkDocs Material + GitHub Actions 自动构建部署
-- 内容源：`docs/`（按六层归档）
+- 在线教程站：https://fenglinxin.github.io/embodied-ai-fullstack-handbook/ （公众号连载整理版）
+- 代码库：`embodied-fullstack-code/`（本仓库根目录，可直接下载运行）
+- 技术栈：MkDocs Material + GitHub Actions，推送 `main` 自动发布
 
-## 配套代码库
+---
 
-除站点文章外，仓库根目录 `embodied-fullstack-code/` 内含 **45 个可运行代码包（第 1–44 章 + 评测工程）**：每包 L1 极简 Demo / L2 工程标准版 / L3 高阶优化版三个脚本 + README（参数白皮书、Top5 踩坑、改造指南），全部 Python 3.10+ 零第三方依赖，可直接下载运行。
+## 一、你踩过的坑，这里都有对应章节
 
-- 目录：`embodied-fullstack-code/chapters/{data,model,simulation,hardware,deployment,evaluation}`
-- 规范与进度：`embodied-fullstack-code/00-代码落地总规范.md`、`PROGRESS.md`
-- 在线浏览：https://github.com/fenglinxin/embodied-ai-fullstack-handbook/tree/main/embodied-fullstack-code
+| 工业现场的真实痛点 | 对应章节 | 拿到的工程交付物 |
+| --- | --- | --- |
+| 采集了一堆数据，训练还是废 | 第 1-12 章 | 采集验收 SOP、清洗/去重/脱敏管线、质量打分与门禁、数据集闭环 |
+| 仿真 95% 成功率，真机 20% | 第 28、31 章 | Sim2Real 差异消除清单、零样本迁移真机验证顺序 |
+| 各模块单测都过，整机乱套 | 第 41 章 | 接口契约审计 + 异常降级状态机 + 回放一致性检查 |
+| 真机卡顿、漂移、偶发失效 | 第 42 章 | 现象四问工单模板 + 分层排查执行器 + 故障案例库（根因率/复发追踪） |
+| 新版本上线怕出事 | 第 43 章 | 健康度监控 + 灰度发布 PASS/WATCH/ROLLBACK 三档判定 + 自动回滚 + SLO 错误预算 |
+| 验收时"差不多就行"扯皮 | 第 44 章 | 三态验收门禁（PASS/黄区/FAIL）+ 证据链 + 自动生成验收报告 md |
+| 成功率忽高忽低，说不清好坏 | 评测工程包 | Wilson 95% 置信区间、P50/P95、版本回归对比、泛化退化单元、稳定性极差 |
+| 立项拍脑袋、量产没关卡 | 第 32、44、45-52 章 | 硬件预算计算、G0-G4 量产门禁追踪、场景机会判断框架 |
 
-## 本地预览
+## 二、仓库里有什么
 
-```bash
-pip install -r requirements.txt
-mkdocs serve
+### 1. 连载教程（docs/，53 篇，在线可读）
+
+| 层 | 章节 | 工程上能产出什么 |
+| --- | --- | --- |
+| 数据层 | 第 1-12 章 | 采集工位搭建、多模态时间对齐、清洗去重、脱敏合规、数据集构建、质量门禁、数据-模型闭环 |
+| 模型层 | 第 13-24 章 | 检测/深度位姿/状态融合、预测、路径与任务规划、控制与调优、VLA 原理与轻量化裁剪 |
+| 仿真层 | 第 25-31 章 | 仿真器选型打分、场景数字孪生、虚拟数据生成、Sim2Real、训练监控、评测回归 |
+| 硬件层 | 第 32-37 章 | 平台选型与预算、底盘验收、机械臂/灵巧手调试、传感同步、标定与可靠性、上下位机架构 |
+| 部署层 | 第 38-44 章 | 端侧推理、量化压缩、低延时链路、全闭环联调、真机排障、稳定性工程、任务验收交付 |
+| 产品产业层 | 第 45-52 章 | 场景机会判断、工业/商用/特种落地逻辑、差异化与量产难点、厂商复盘、融资与政策 |
+
+### 2. 分层代码库（embodied-fullstack-code/，45 个包 x 135 个脚本）
+
+每个技术章节配齐一套可直接运行的三层代码，按读者梯度落地：
+
+| 层 | 文件命名 | 给谁用 | 能做什么 |
+| --- | --- | --- | --- |
+| L1 极简 Demo | demo_*.py | 零基础入门 | 30 秒跑通本章核心机制，理解原理 |
+| L2 工程标准版 | engineering_*.py | 项目开发工程师 | 参数校验/日志/批量/配置解耦，可直接二次开发 |
+| L3 高阶优化版 | advanced_*.py | 量产落地/性能调优 | 针对本章工程痛点（提速/降噪/稳收敛/降抖动/消 Sim2Real 偏差）的专项优化 |
+
+每包五件套，缺一不可：
+
+```text
+chapters/<层>/
+└── 第N章-xxx/
+    ├── demo_*.py            # L1 极简 Demo
+    ├── engineering_*.py     # L2 工程标准版
+    ├── advanced_*.py        # L3 高阶优化版
+    ├── README.md            # 环境/运行命令/实测输出/参数白皮书/Top5踩坑/改造指南
+    └── requirements.txt     # 纯 Python 标准库，零第三方依赖
 ```
 
-## 部署说明
+- 目录：embodied-fullstack-code/chapters/{data, model, simulation, hardware, deployment, evaluation}
+- 配套规范与进度：00-代码落地总规范.md、PROGRESS.md；部分包自带 sample/ 演示输入，开箱即跑
+- 环境要求：Python 3.10+，无需 pip 安装任何东西（已在 3.13.3 全量实跑验证，实测输出写入各包 README）
+- 真实框架怎么换？各包 README 的"改造指南"给出替换路径（如 numpy/OpenCV/Torch、ROS2、Isaac Sim），零依赖仅用于教学可复现
 
-1. 推送 `main` 分支后，GitHub Actions 会自动构建并发布；
-2. 首次请在仓库 **Settings → Pages** 中把 Source 设为 **GitHub Actions**；
-3. 站点地址即 `https://<用户名>.github.io/embodied-ai-fullstack-handbook/`。
+## 三、30 分钟先跑起来
 
-## 目录
+### 1. 拿到代码
 
-| 层 | 章节 | 目录 |
+```bash
+# 方式 A：整仓克隆
+git clone https://github.com/fenglinxin/embodied-ai-fullstack-handbook.git
+# 方式 B：只下代码库（GitHub 网页 - Code - Download ZIP），零 Git 经验也能用
+```
+
+### 2. 跑第一个包（Windows 用户先设置 UTF-8，避免中文乱码）
+
+```bash
+set PYTHONIOENCODING=utf-8    # Windows；macOS/Linux 可跳过
+cd embodied-fullstack-code/chapters/data/第1章-具身数据全链路地基
+python demo_data_pipeline.py        # L1：先看懂
+python engineering_data_pipeline.py # L2：工程版
+python advanced_quality_engine.py   # L3：进阶优化
+```
+
+> 任何一章想验证"代码真的能跑"：直接看该包 README.md 的"标准运行结果"，全部是本机实测输出，不是示例占位。
+
+## 四、按角色选路径（别从头啃）
+
+| 你的角色 | 建议路径 |
+| --- | --- |
+| 机器人集成/产线工程师 | 第 38 → 41 → 42 → 43 → 44 章 + 评测工程：先解决"整机能不能稳定跑、怎么验收" |
+| 算法/模型工程师 | 数据层（1-12）→ 模型层（22-24）→ 仿真层（28-31）→ 评测工程：把成功率做上去并能量化 |
+| 硬件/嵌入式工程师 | 第 32-37 章 → 40-42 章：选型预算、标定可靠性、上下位机与排障 |
+| 技术负责人 | 第 32/41/43/44 章 + 评测工程 + 45-52 章：抓"能否量产、如何验收、风险在哪" |
+| 创业者/产品经理 | 第 45-52 章 + 第 32 章预算代码：先判断场景与成本再谈技术 |
+
+## 五、按项目阶段用（落地主流程）
+
+| 项目阶段 | 章节/代码包 | 阶段交付物（本仓库可直接产出） |
 | --- | --- | --- |
-| 数据层 | 第 1–12 章 | `docs/data-layer` |
-| 模型层 | 第 13–24 章 | `docs/model-layer` |
-| 仿真层 | 第 25–31 章 | `docs/simulation-layer` |
-| 硬件层 | 第 32–37 章 | `docs/hardware-layer` |
-| 部署层 | 第 38–44 章 | `docs/deployment-layer` |
-| 产品产业层 | 第 45–52 章 | `docs/product-layer` |
+| 立项与方案 | 第 45-46、32 章 | 场景机会清单、硬件平台预算表 |
+| 数据准备 | 第 1-12 章 | 采集验收、清洗去重管线、脱敏报告、数据集质量报告 |
+| 算法开发 | 第 13-24 章 | 感知/规划/控制评估报告、VLA 可行性验证 |
+| 仿真验证 | 第 25-31 章 | 仿真器评分、虚拟数据、Sim2Real 差距清单 |
+| 真机联调 | 第 38-42 章 | 契约审计报告、联调状态机、排障案例库 |
+| 上线前稳定性 | 第 43 章 + 评测工程 | 灰度放量记录、SLO 报告、成功率(含置信区间)/泛化矩阵/回归报告 |
+| 验收与量产 | 第 44 章 | 三态验收报告 md（自动生成，含证据链与签署区）、G0-G4 量产关卡看板 |
+## 六、参与与维护
+
+```bash
+pip install -r requirements.txt   # 仅本地预览站点需要
+mkdocs serve                      # 本地预览教程站
+```
+
+- 推送 main 分支：教程站自动重新构建部署（GitHub Actions）；代码目录随仓库同步，无需额外操作
+- 修代码、加章节：先读 embodied-fullstack-code/00-代码落地总规范.md，保持 L1/L2/L3 + 五件套结构
+- 站点部署方式：GitHub Pages（Source 已设为 GitHub Actions），地址 https://fenglinxin.github.io/embodied-ai-fullstack-handbook/
+
+---
+
+**目标读者一句话**：不论你在产线、算法组还是创业公司，从这里拿走的是"可直接落地的参数、代码和验收口径"，而不是又一堆概念。
+
