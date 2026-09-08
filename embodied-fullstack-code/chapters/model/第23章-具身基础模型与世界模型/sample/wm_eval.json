@@ -1,0 +1,1 @@
+[{"case": "c1", "pred": [0.4, 0.8, 1.1, 1.5, 1.9], "gt": [0.4, 0.8, 1.2, 1.6, 2.0], "event_pred": false, "event_true": false}, {"case": "c2", "pred": [0.4, 0.9, 1.4, 1.9, 2.5], "gt": [0.4, 0.8, 1.2, 1.6, 2.0], "event_pred": true, "event_true": false}]

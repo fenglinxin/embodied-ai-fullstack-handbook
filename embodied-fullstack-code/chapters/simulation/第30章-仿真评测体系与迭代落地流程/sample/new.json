@@ -1,0 +1,1 @@
+{"kitchen_light": {"success_rate": 0.95, "trials": 40}, "kitchen_shadow": {"success_rate": 0.95, "trials": 40}, "warehouse": {"success_rate": 0.75, "trials": 40}}

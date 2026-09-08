@@ -1,0 +1,66 @@
+{
+  "plan": {
+    "scenario": "仓库B区料箱搬运",
+    "constraints": {
+      "节拍_s": 20,
+      "成功率": 0.99,
+      "物体规格": [
+        "3种料箱"
+      ],
+      "人车共线": true
+    },
+    "task_tree": [
+      {
+        "skill": "grasp",
+        "variants": {
+          "box": [
+            "s",
+            "m",
+            "l"
+          ],
+          "position": [
+            "left",
+            "center",
+            "right"
+          ],
+          "light": [
+            "normal",
+            "shadow"
+          ]
+        }
+      },
+      {
+        "skill": "place",
+        "variants": {
+          "rack": [
+            "low",
+            "high"
+          ],
+          "precision": [
+            "normal"
+          ]
+        }
+      }
+    ],
+    "quota_per_combo": 10,
+    "mvp": {
+      "leaves": 1,
+      "variants": 3,
+      "per": 10
+    }
+  },
+  "rows": [
+    {
+      "skill": "grasp",
+      "combos": 18,
+      "need": 180
+    },
+    {
+      "skill": "place",
+      "combos": 2,
+      "need": 20
+    }
+  ],
+  "total_need": 200,
+  "mvp_need": 30
+}

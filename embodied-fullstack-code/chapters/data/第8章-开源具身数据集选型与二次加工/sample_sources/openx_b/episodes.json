@@ -1,0 +1,1 @@
+[{"episode_id": "b-0001", "task_desc": "pick red cup", "joint_positions": [[0.1, 0.2, 0.3], [0.1, 0.2, 0.3], [0.1, 0.2, 0.3], [0.1, 0.2, 0.3], [0.1, 0.2, 0.3]], "success": true}, {"episode_id": "b-0002", "task_desc": "wipe table", "joint_positions": [[0.1, 0.2, 0.4], [0.1, 0.2, 0.4], [0.1, 0.2, 0.4], [0.1, 0.2, 0.4], [0.1, 0.2, 0.4]], "success": false}]

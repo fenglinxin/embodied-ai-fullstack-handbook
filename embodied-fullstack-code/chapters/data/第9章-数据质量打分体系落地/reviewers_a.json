@@ -1,0 +1,18 @@
+[
+ {
+  "episode_id": "ep-0000",
+  "score_manual": 0.95
+ },
+ {
+  "episode_id": "ep-0001",
+  "score_manual": 0.6
+ },
+ {
+  "episode_id": "ep-0002",
+  "score_manual": 0.1
+ },
+ {
+  "episode_id": "ep-0003",
+  "score_manual": 0.45
+ }
+]

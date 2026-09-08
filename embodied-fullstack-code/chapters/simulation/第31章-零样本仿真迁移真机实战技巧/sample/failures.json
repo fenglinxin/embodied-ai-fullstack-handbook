@@ -1,0 +1,1 @@
+[{"scene": "a", "phase": "grasp", "mode": "grasp_slip"}, {"scene": "b", "phase": "perception", "mode": "detect_miss_light"}, {"scene": "c", "phase": "control", "mode": "action_latency_80ms"}, {"scene": "d", "phase": "unknown", "mode": "random_fail"}]

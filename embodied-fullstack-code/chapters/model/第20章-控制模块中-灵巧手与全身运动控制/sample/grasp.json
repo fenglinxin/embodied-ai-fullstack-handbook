@@ -1,0 +1,1 @@
+{"object_mass_kg": 0.2, "mu": 0.6, "fingers": [{"name": "thumb", "weight": 0.5, "normal": [1.0, 0.0]}, {"name": "index", "weight": 0.3, "normal": [-0.8, 0.3]}, {"name": "middle", "weight": 0.2, "normal": [-0.8, -0.3]}]}

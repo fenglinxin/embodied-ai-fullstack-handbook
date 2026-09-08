@@ -1,0 +1,1 @@
+[{"image_id": 0, "class": "mug", "bbox": [10, 10, 12, 12], "conf": 0.95, "latency_ms": 11.0}, {"image_id": 0, "class": "mug", "bbox": [32, 31, 9, 9], "conf": 0.8, "latency_ms": 13.0}, {"image_id": 1, "class": "mug", "bbox": [20, 5, 8, 8], "conf": 0.6, "latency_ms": 14.0}]

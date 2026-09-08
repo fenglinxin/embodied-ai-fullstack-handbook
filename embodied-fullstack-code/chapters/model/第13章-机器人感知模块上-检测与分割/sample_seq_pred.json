@@ -1,0 +1,1 @@
+[{"frame_id":0,"class":"mug","bbox":[32.8,20,10,12],"conf":0.93},{"frame_id":1,"class":"mug","bbox":[34,20,10,12],"conf":0.93},{"frame_id":2,"class":"mug","bbox":[36.8,20,10,12],"conf":0.93},{"frame_id":4,"class":"mug","bbox":[39.6,20,10,12],"conf":0.93},{"frame_id":5,"class":"mug","bbox":[40.8,20,10,12],"conf":0.93}]

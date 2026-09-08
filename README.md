@@ -6,6 +6,14 @@
 - 技术栈：MkDocs Material + GitHub Actions 自动构建部署
 - 内容源：`docs/`（按六层归档）
 
+## 配套代码库
+
+除站点文章外，仓库根目录 `embodied-fullstack-code/` 内含 **45 个可运行代码包（第 1–44 章 + 评测工程）**：每包 L1 极简 Demo / L2 工程标准版 / L3 高阶优化版三个脚本 + README（参数白皮书、Top5 踩坑、改造指南），全部 Python 3.10+ 零第三方依赖，可直接下载运行。
+
+- 目录：`embodied-fullstack-code/chapters/{data,model,simulation,hardware,deployment,evaluation}`
+- 规范与进度：`embodied-fullstack-code/00-代码落地总规范.md`、`PROGRESS.md`
+- 在线浏览：https://github.com/fenglinxin/embodied-ai-fullstack-handbook/tree/main/embodied-fullstack-code
+
 ## 本地预览
 
 ```bash

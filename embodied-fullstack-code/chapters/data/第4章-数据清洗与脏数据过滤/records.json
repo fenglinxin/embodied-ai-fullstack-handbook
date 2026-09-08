@@ -1,0 +1,108 @@
+[
+  {
+    "episode_id": "ep-0000",
+    "task": "pick",
+    "scene": "a",
+    "success": true,
+    "black_ratio": 0.0,
+    "ts_monotonic": true,
+    "action_empty_ratio": 0.0,
+    "success_consistent": true,
+    "decision": "KEEP",
+    "reasons": []
+  },
+  {
+    "episode_id": "ep-0001",
+    "task": "pick",
+    "scene": "a",
+    "success": true,
+    "black_ratio": 0.3,
+    "ts_monotonic": true,
+    "action_empty_ratio": 0.0,
+    "success_consistent": true,
+    "decision": "P0_DROP",
+    "reasons": [
+      "黑帧30%>5%"
+    ]
+  },
+  {
+    "episode_id": "ep-0002",
+    "task": "pick",
+    "scene": "b",
+    "success": true,
+    "black_ratio": 0.0,
+    "ts_monotonic": false,
+    "action_empty_ratio": 0.0,
+    "success_consistent": true,
+    "decision": "P0_DROP",
+    "reasons": [
+      "时间戳非单调"
+    ]
+  },
+  {
+    "episode_id": "ep-0003",
+    "task": "pick",
+    "scene": "b",
+    "success": true,
+    "black_ratio": 0.0,
+    "ts_monotonic": true,
+    "action_empty_ratio": 0.95,
+    "success_consistent": true,
+    "decision": "P0_DROP",
+    "reasons": [
+      "空动作>80%"
+    ]
+  },
+  {
+    "episode_id": "ep-0004",
+    "task": "place",
+    "scene": "c",
+    "success": true,
+    "black_ratio": 0.0,
+    "ts_monotonic": true,
+    "action_empty_ratio": 0.0,
+    "success_consistent": false,
+    "decision": "P1_FLAG",
+    "reasons": [
+      "成功标记与末端位置矛盾(送人工)"
+    ]
+  },
+  {
+    "episode_id": "ep-0005",
+    "task": "place",
+    "scene": "c",
+    "success": false,
+    "black_ratio": 0.0,
+    "ts_monotonic": true,
+    "action_empty_ratio": 0.0,
+    "success_consistent": true,
+    "decision": "P2_KEEP",
+    "reasons": [
+      "失败样本-保留进困难池"
+    ]
+  },
+  {
+    "episode_id": "ep-0006",
+    "task": "place",
+    "scene": "d",
+    "success": true,
+    "black_ratio": 0.02,
+    "ts_monotonic": true,
+    "action_empty_ratio": 0.0,
+    "success_consistent": true,
+    "decision": "KEEP",
+    "reasons": []
+  },
+  {
+    "episode_id": "ep-0007",
+    "task": "pick",
+    "scene": "d",
+    "success": true,
+    "black_ratio": 0.0,
+    "ts_monotonic": true,
+    "action_empty_ratio": 0.0,
+    "success_consistent": true,
+    "decision": "KEEP",
+    "reasons": []
+  }
+]

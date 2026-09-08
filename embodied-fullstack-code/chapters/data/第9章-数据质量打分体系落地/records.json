@@ -1,0 +1,58 @@
+[
+  {
+    "episode_id": "ep-0000",
+    "task": "pick",
+    "scene": "a",
+    "object": "mug",
+    "success": true,
+    "success_consistent": true,
+    "ts_ok": true,
+    "black_ratio": 0.0,
+    "empty_ratio": 0.0,
+    "has_language": true,
+    "operator": "alice",
+    "calib": "v3"
+  },
+  {
+    "episode_id": "ep-0001",
+    "task": "pick",
+    "scene": "a",
+    "object": "mug",
+    "success": true,
+    "success_consistent": false,
+    "ts_ok": true,
+    "black_ratio": 0.0,
+    "empty_ratio": 0.0,
+    "has_language": true,
+    "operator": "bob",
+    "calib": "v3"
+  },
+  {
+    "episode_id": "ep-0002",
+    "task": "pick",
+    "scene": "b",
+    "object": "box",
+    "success": false,
+    "success_consistent": true,
+    "ts_ok": false,
+    "black_ratio": 0.3,
+    "empty_ratio": 0.0,
+    "has_language": false,
+    "operator": "alice",
+    "calib": ""
+  },
+  {
+    "episode_id": "ep-0003",
+    "task": "place",
+    "scene": "c",
+    "object": "mug",
+    "success": true,
+    "success_consistent": true,
+    "ts_ok": true,
+    "black_ratio": 0.0,
+    "empty_ratio": 0.9,
+    "has_language": true,
+    "operator": "carol",
+    "calib": "v2"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "episode_id": "a-0001",
+    "source": "openx_a",
+    "language": "pick cup",
+    "action_space": "ee_delta",
+    "action_dim": 4,
+    "success": true
+  },
+  {
+    "episode_id": "b-0002",
+    "source": "openx_b",
+    "language": "place cup on tray",
+    "action_space": "joint_abs",
+    "action_dim": 7,
+    "success": false
+  }
+]

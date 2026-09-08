@@ -1,0 +1,802 @@
+[
+  {
+    "episode_id": "ep-0000",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 11.5,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0001",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": false,
+    "duration_s": 3.7,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0002",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 8.2,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0003",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 3.3,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0004",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 5.2,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0005",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 10.4,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0006",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 8.7,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0007",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 8.2,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0008",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 3.4,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0009",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 6.8,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0010",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 8.0,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0011",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": false,
+    "duration_s": 8.2,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0012",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 3.9,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0013",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 8.6,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0014",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 10.0,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0015",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 6.3,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0016",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 9.3,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0017",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 7.7,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0018",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 5.6,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0019",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 7.6,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0020",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 4.4,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0021",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": false,
+    "duration_s": 11.7,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0022",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 6.1,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0023",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 8.2,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0024",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 11.5,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0025",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 3.5,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0026",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 5.6,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0027",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 3.2,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0028",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 8.5,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0029",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 9.9,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0030",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 6.6,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0031",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": false,
+    "duration_s": 3.7,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0032",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 11.0,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0033",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 9.4,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0034",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 11.6,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0035",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 4.4,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0036",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 7.4,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0037",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 5.5,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0038",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 8.5,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0039",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 9.2,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0040",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 7.1,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0041",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": false,
+    "duration_s": 6.6,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0042",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 8.7,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0043",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 11.9,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0044",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 6.1,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0045",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 8.1,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0046",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 8.5,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0047",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 8.5,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0048",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 11.6,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0049",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 4.1,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0050",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 7.3,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0051",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": false,
+    "duration_s": 3.9,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0052",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 7.3,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0053",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 4.8,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0054",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 4.3,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0055",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 9.8,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0056",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 9.3,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0057",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 11.2,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0058",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 7.8,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0059",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 8.7,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0060",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 10.3,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0061",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": false,
+    "duration_s": 4.8,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0062",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 11.9,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0063",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 5.3,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0064",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 7.0,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0065",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 11.6,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0066",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 3.9,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0067",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 4.8,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0068",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 7.3,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0069",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 10.5,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0070",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 10.0,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0071",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": false,
+    "duration_s": 11.0,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0072",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 3.8,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0073",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 7.2,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0074",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 9.5,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0075",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 3.2,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0076",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 10.3,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0077",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 8.9,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0078",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 3.2,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0079",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 7.7,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0080",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 11.9,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0081",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": false,
+    "duration_s": 3.3,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0082",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 9.9,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0083",
+    "scene": "scene_c",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 10.5,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0084",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 11.1,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0085",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 10.4,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0086",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 7.8,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0087",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 10.9,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0088",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 10.0,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0089",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 7.3,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0090",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 5.9,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0091",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": false,
+    "duration_s": 10.1,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0092",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 5.2,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0093",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 7.6,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0094",
+    "scene": "scene_b",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 7.0,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0095",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 9.2,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0096",
+    "scene": "scene_a",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 7.6,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0097",
+    "scene": "scene_b",
+    "operator": "bob",
+    "success": true,
+    "duration_s": 11.3,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0098",
+    "scene": "scene_c",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 10.6,
+    "channels_ok": true
+  },
+  {
+    "episode_id": "ep-0099",
+    "scene": "scene_a",
+    "operator": "alice",
+    "success": true,
+    "duration_s": 6.5,
+    "channels_ok": true
+  }
+]

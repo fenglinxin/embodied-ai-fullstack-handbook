@@ -1,0 +1,1 @@
+[{"name": "rgb_cam", "enumerate": true, "stable_fps": true, "hw_timestamp": true, "units_ok": true, "power_ok": true, "auto_recover": false}, {"name": "lidar", "enumerate": true, "stable_fps": true, "hw_timestamp": true, "units_ok": true, "power_ok": true, "auto_recover": true}]

@@ -1,0 +1,46 @@
+{
+  "node": "ingest",
+  "version": "1.0.0",
+  "config_hash": "a3bcd2277ca7",
+  "data": {
+    "episodes": [
+      {
+        "id": "ep-0000",
+        "dirty": true
+      },
+      {
+        "id": "ep-0001",
+        "dirty": false
+      },
+      {
+        "id": "ep-0002",
+        "dirty": false
+      },
+      {
+        "id": "ep-0003",
+        "dirty": true
+      },
+      {
+        "id": "ep-0004",
+        "dirty": false
+      },
+      {
+        "id": "ep-0005",
+        "dirty": false
+      },
+      {
+        "id": "ep-0006",
+        "dirty": true
+      },
+      {
+        "id": "ep-0007",
+        "dirty": false
+      },
+      {
+        "id": "ep-0008",
+        "dirty": false
+      }
+    ]
+  },
+  "checksum": "857cc848de64"
+}

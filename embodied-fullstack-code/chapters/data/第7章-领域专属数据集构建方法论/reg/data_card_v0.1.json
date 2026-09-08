@@ -1,0 +1,40 @@
+{
+  "dataset_name": "domain-pick-v0",
+  "overview": {
+    "episodes": 3,
+    "tasks": 1,
+    "scenes": 3,
+    "raw_files": 3
+  },
+  "authorization": {
+    "status": "internal-license"
+  },
+  "distribution": {
+    "by_task": {
+      "pick_cup": 3
+    },
+    "by_scene": {
+      "kitchen_a": 1,
+      "kitchen_b": 1,
+      "kitchen_c": 1
+    },
+    "success_rate": 1.0
+  },
+  "processing": {
+    "pipeline_version": "0.1.0"
+  },
+  "quality": {
+    "validation_problems": 0
+  },
+  "split": {
+    "train": 1,
+    "val": 1,
+    "test": 1
+  },
+  "known_issues": [
+    "0 条记录缺元数据"
+  ],
+  "reproducibility": {
+    "checksum": "f7998a93f410429a"
+  }
+}

@@ -1,0 +1,1 @@
+{"models": [{"name": "detector", "vram_gb": 1.0, "fps": 30}, {"name": "vla", "vram_gb": 8.0, "fps": 3}], "sensors_mbps": [{"name": "rgb", "mbps": 250}, {"name": "depth", "mbps": 120}], "motor_peak_w": 600, "compute_avg_w": 90, "runtime_h": 4.0, "battery_eff": 0.8, "vram_headroom": 1.25, "power_headroom": 1.3}

@@ -1,0 +1,16 @@
+{
+  "tag": "v0.1",
+  "readiness": {
+    "dims": {
+      "coverage": 0.75,
+      "success": 1.0,
+      "failure": 0.0,
+      "metadata": 1.0
+    },
+    "score": 0.7,
+    "verdict": "collect-more"
+  },
+  "diff_vs_previous": null,
+  "latest": "reg\\data_card_v0.1.json",
+  "suggestion": "补采欠覆盖组合与失败样本后再注册"
+}

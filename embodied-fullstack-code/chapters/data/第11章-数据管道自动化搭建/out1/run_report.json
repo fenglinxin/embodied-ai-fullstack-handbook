@@ -1,0 +1,14 @@
+{
+  "ingest": {
+    "status": "SKIP",
+    "checksum": "857cc848de64"
+  },
+  "clean": {
+    "status": "RUN",
+    "checksum": "c721a53a0bf6"
+  },
+  "quality": {
+    "status": "RUN",
+    "checksum": "347d3e813c79"
+  }
+}

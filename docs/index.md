@@ -26,3 +26,11 @@
 ## 快速开始
 
 左侧导航按六层浏览；右上角支持全文搜索；文末"全系列目录索引"可交叉跳转。
+## 配套代码库（可运行）
+
+> 每个技术章节都配有三层可运行代码：**L1 极简 Demo → L2 工程标准版 → L3 高阶优化版**（Python 3.10+，零第三方依赖），附参数白皮书 / Top5 踩坑 / 改造指南。
+
+- 在线浏览：[https://github.com/fenglinxin/embodied-ai-fullstack-handbook/tree/main/embodied-fullstack-code](https://github.com/fenglinxin/embodied-ai-fullstack-handbook/tree/main/embodied-fullstack-code)
+- 本地结构：`数据层第1-12章 / 模型层第13-24章 / 仿真第25-31章 / 硬件第32-37章 / 部署第38-44章 / 评测工程`，每包 5 件套：`demo_*.py`（L1）+ `engineering_*.py`（L2）+ `advanced_*.py`（L3）+ `README.md` + `requirements.txt`
+- 下载整库：仓库首页绿色 Code 按钮 → Download ZIP，解压即可逐个运行。
+
